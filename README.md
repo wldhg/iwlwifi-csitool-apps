@@ -9,7 +9,7 @@ These tools are tested with BPI-R2 device.
 
 #### Kernel & Driver
 
-If you are using BPI-R2, please refer [this README](https://github.com/wldh-g/iwlwifi-csitool-r2#readme).
+If you are using BPI-R2, please refer [this README](https://github.com/wldhg/iwlwifi-csitool-r2#readme).
 If not, please look [here](https://github.com/dhalperi/linux-80211n-csitool).
 
 #### Install `lorcon`
@@ -19,7 +19,7 @@ If not, please look [here](https://github.com/dhalperi/linux-80211n-csitool).
 
 #### Download this repository
 
-- Git clone `https://github.com/wldh-g/iwlwifi-csitool-apps`
+- Git clone `https://github.com/wldhg/iwlwifi-csitool-apps`
 - `cd iwlwifi-csitool-apps`
 
 #### Install firmware
@@ -45,7 +45,7 @@ cd ./capture; make
 
 ## How to use recorded `.dat` file
 
-Here is the tools that I used to process dat file: [15na-tools](https://github.com/wldh-g/15na-tools#readme)  
+Here is the tools that I used to process dat file: [15na-tools](https://github.com/wldhg/15na-tools#readme)  
 And here is the tool provided by the author of Intel CSITool, D. Halperin: [linux-80211n-csitool-supplementary](https://github.com/dhalperi/linux-80211n-csitool-supplementary)
 
 ## About channels, MIMO, MCS
@@ -59,7 +59,7 @@ In `# Set transaction rate` part of `prepare_tx.sh`, there is a strange hex inte
 
 Using `get_flags.js`, you can get proper flag code by giving the data rate and the number of antenna you use.
 
-The detail for the flag is described at [here](https://github.com/wldh-g/iwlwifi-csitool-r2/blob/master/drivers/net/wireless/iwlwifi/dvm/commands.h#L245-L334).
+The detail for the flag is described at [here](https://github.com/wldhg/iwlwifi-csitool-r2/blob/master/drivers/net/wireless/iwlwifi/dvm/commands.h#L245-L334).
 
 ## License
 
